@@ -1,0 +1,47 @@
+.header{
+    /* width: auto; */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    background-color: rgb(173, 192, 252);
+    padding: 4% 3%;
+    height: 450px;
+
+}
+
+.right img{
+    width: 400px ;
+}
+
+.heading{
+    letter-spacing: 0.5%;
+    font-size: 2.3rem;
+    font-family: Apple Chancery, cursive;
+    font-weight: bolder;
+}
+.heading span{
+    color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(to right, rgb(86, 83, 255), rgb(78, 5, 223));
+}
+
+.comment{
+    font-size: 1rem;
+}
+
+/* @media screen and (max-width:940px){
+    .header{
+        padding-top: 25px;
+        flex-direction: column;
+        gap:40px;
+        width: 100%;
+    }
+    .heading{
+        font-size: 30px;
+    }
+    .right img{
+        width:300px;
+    }
+} */
+    

@@ -1,0 +1,146 @@
+.container{
+    --color: #E3720E ;
+    background-color: rgb(250, 248, 248);
+    width: 750px;
+    margin-top: 20px;
+    height: fit-content;
+    min-height:800px;
+    box-shadow: 1px 1px 3px 2px rgba(0, 0, 0,0.4);
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+}
+.header{
+    width: 100%;
+    border-bottom: 1px solid var(--color);
+}
+
+.header .heading{
+    font-size: 2.7rem;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.header .subheading{
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: var(--color);
+}
+
+.header .links{
+    margin-bottom: 5px;
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 1px;
+    gap: 20px;
+    font-weight: 500;
+}
+.header .link{
+    font-size: 1rem;
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    justify-content:center;
+    cursor: pointer;
+}
+.header .link svg{
+    color: var(--color);
+    height: 16px;
+    width: 16px;
+}
+
+.main{
+    display: flex;
+    gap: 30px;
+}
+.col1{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.col2{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.section .sectiontitle{
+    font-size:1.4rem;
+    font-weight: bold;
+    width: 100%;
+    border-bottom: 2px solid var(--color);
+}
+.section .content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px 0;
+    padding-top: 5px;
+}
+
+.section .content .item{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+    border-bottom: 1px dotted rgb(167, 167, 167);
+}
+
+.content .title{
+    font-size:1rem;
+    font-weight:600;
+}
+.content .subtitle{
+    font-weight: 500;
+    color: var(--color);
+    font-size: 1rem;
+}
+
+.content .overview{
+    font-size: 0.9rem;
+}
+.content .link{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    color: var(--color);
+}
+.content .link svg{
+    height: 13px;
+    width: 13px;
+}
+.content .date{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 0.9rem;
+}
+.content .date svg{
+    height: 14px;
+    width: 13px;
+    color: var(--color);
+}
+
+.content .points{
+    font-size: 0.9rem;
+    padding-left: 4px;
+}
+
+.location{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 0.9rem;
+}
+.location svg{
+    color: var(--color);
+    height: 13px;
+    width: 12px;
+}
+.hidden{
+    display: none;
+}

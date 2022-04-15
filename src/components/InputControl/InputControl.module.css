@@ -1,0 +1,29 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+label{
+    font-weight: 500;
+    font-size:1rem;
+}
+
+input{
+    padding: 8px 10px;
+    border-radius: 5px;
+    font-size: 1rem;
+    outline: none;
+    border: 1px solid rgb(94, 94, 94);
+}
+
+input:hover{
+    outline: 1px solid rgb(68, 68, 68);
+}
+
+@media  screen and (max-width: 700px) {
+    input{
+        padding: 8px 8px;
+    }
+    
+}
